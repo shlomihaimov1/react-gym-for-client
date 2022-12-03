@@ -6,6 +6,8 @@ function ContactInfo() {
     <div className='contactInfo' id='link3'>
      <h1>Who We Are</h1>
      <div className='line'></div>
+     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br></br>
+Lorem Ipsum the industry's standard dummy text.</p>
  <div className='contact__info__back container'>
  <div className='contact__info__grid container'>
         <div className='contact__info__text'>

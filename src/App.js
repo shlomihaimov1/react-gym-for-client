@@ -8,7 +8,7 @@ import Utility from './New/components/Utility';
 import ContactInfo from './New/components/ContactInfo';
 import { Route } from 'react-router-dom';
 import WhitePaper from './New/components/WhitePaper';
-import Faq from './New/components/Faq';
+import Department from './New/components/Department';
 import ReactCarousel from './New/components/ReactCarousel';
 import Cards from './New/components/Cards';
 function App() {
@@ -43,6 +43,7 @@ function App() {
       <HeaderSection/>
       <Cards/>
       <ContactInfo/>
+      <Department/>
       </div>
   );
 }
