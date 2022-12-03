@@ -53,12 +53,11 @@
     }
 }
 
-
-@media screen and (max-width: 800px){
-.deps{
-    flex-direction: column;
-    .dep{
-        margin-top: 20px;
-    }
-}
-}
+div.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu .deps {
+    display: inline-block;
+  }
