@@ -28,7 +28,7 @@ body {
     line-height: 28px;
     font-weight: 400;
     color: $txt-color;
-    background-color: $bgr-body;
+    background-color: white;
     position: relative;
     overflow-x: hidden;
 }
@@ -53,6 +53,7 @@ h1,
 .h1 {
     font-size: 80px;
     line-height: 1.2;
+    color: RGB(17, 17, 17);
 }
 h2,
 .h2 {
@@ -112,6 +113,8 @@ h6,
 .z-index {
     z-index: 999;
 }
-
+p{
+    color: RGB(102, 102, 102);
+}
 
 

@@ -5,7 +5,7 @@ import HeaderSection from './New/components/HeaderSection';
 import NavBar from './New/components/NavBar';
 import OverView from './New/components/OverView';
 import Utility from './New/components/Utility';
-import Roadmap from './New/components/Roadmap';
+import ContactInfo from './New/components/ContactInfo';
 import { Route } from 'react-router-dom';
 import WhitePaper from './New/components/WhitePaper';
 import Faq from './New/components/Faq';
@@ -41,12 +41,8 @@ function App() {
       <div>
       <NavBar/>
       <HeaderSection/>
-      <OverView/>
-      <Utility/>
-      <Roadmap/>
-      <WhitePaper/>
-      <Faq/>
       <Cards/>
+      <ContactInfo/>
       </div>
   );
 }
