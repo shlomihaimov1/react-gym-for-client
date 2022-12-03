@@ -3,7 +3,7 @@ import React,{ useEffect , useState }  from 'react';
 import AOS from 'aos';
 import HeaderSection from './New/components/HeaderSection';
 import NavBar from './New/components/NavBar';
-import OverView from './New/components/OverView';
+import Gallery from './New/components/Gallery';
 import Utility from './New/components/Utility';
 import ContactInfo from './New/components/ContactInfo';
 import { Route } from 'react-router-dom';
@@ -45,6 +45,7 @@ function App() {
       <ContactInfo/>
       <Department/>
       <ContactUS/>
+      <Gallery/>
       </div>
   );
 }
